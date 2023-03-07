@@ -7,6 +7,6 @@ esbuild.build({
     outfile: './bundle.js',
     platform: 'browser',
     format: 'esm',
-    plugins: [Icons({ compiler: 'jsx', jsx: 'preact' })],
+    plugins: [Icons({ compiler: 'jsx', jsx: 'react' })],
     external: ['~icons'],
 });
